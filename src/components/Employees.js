@@ -33,13 +33,18 @@ export class Employees extends Component {
 
     render() {
         return this.state.employee.map((employee) => (
-            <ul key={employee.id}>
-                <h1>{employee.name}</h1>
-                <li>{employee.title}</li>
-                <li>{employee.hours}</li>
-                <li>{employee.type}</li>
-                <li>{employee.benefits}</li>
-            </ul>
+            <div className="grid">
+
+                <div className="container">
+                    <ul key={employee.id}>
+                        <h1>{employee.name}</h1>
+                        <li>{employee.title}</li>
+                        <li>{employee.hours}</li>
+                        <li>{employee.type}</li>
+                        <li>{employee.benefits}</li>
+                    </ul>
+                </div>
+            </div>
         ))
     }
 }
