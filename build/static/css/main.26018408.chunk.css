@@ -1,0 +1,2 @@
+body{background:#666}.form{display:flex;flex-direction:row;align-content:center;justify-content:center;margin:1rem}.App{display:grid;grid-template-columns:repeat(3,1fr)}.form-control{width:50%;margin-right:1rem;align-self:center}.btn{width:6rem;align-self:center}.container{background-color:#fff;height:50vh;border-radius:10px}.grid{height:50vh}.grid,li{margin:1rem}li{list-style:none}@media (max-width:1050px){.App{grid-template-columns:repeat(2,1fr)}}@media (max-width:768px){.App{grid-template-columns:1fr}}
+/*# sourceMappingURL=main.26018408.chunk.css.map */
